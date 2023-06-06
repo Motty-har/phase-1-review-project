@@ -57,7 +57,7 @@
   }, {
       "id" : 7,
       "fullName" : "Mark Stone",
-    "jerseyNumber" : "##61",
+    "jerseyNumber" : "#61",
     "position" : {
       "code" : "R",
       "name" : "Right Wing",
