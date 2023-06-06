@@ -1,0 +1,311 @@
+{
+    "roster" : [ {
+    "person" : {
+      "id" : 8471734,
+      "fullName" : "Jonathan Quick"
+    },
+    "jerseyNumber" : "32",
+    "position" : {
+      "code" : "G",
+      "name" : "Goalie",
+      "type" : "Goalie"
+    }
+  }, {
+    "person" : {
+      "id" : 8473548,
+      "fullName" : "Phil Kessel"
+    },
+    "jerseyNumber" : "8",
+    "position" : {
+      "code" : "R",
+      "name" : "Right Wing",
+      "type" : "Forward"
+    }
+  }, {
+    "person" : {
+      "id" : 8474166,
+      "fullName" : "Alec Martinez"
+    },
+    "jerseyNumber" : "23",
+    "position" : {
+      "code" : "D",
+      "name" : "Defenseman",
+      "type" : "Defenseman"
+    }
+  }, {
+    "person" : {
+      "id" : 8474565,
+      "fullName" : "Alex Pietrangelo"
+    },
+    "jerseyNumber" : "7",
+    "position" : {
+      "code" : "D",
+      "name" : "Defenseman",
+      "type" : "Defenseman"
+    }
+  }, {
+    "person" : {
+      "id" : 8475188,
+      "fullName" : "Brayden McNabb"
+    },
+    "jerseyNumber" : "3",
+    "position" : {
+      "code" : "D",
+      "name" : "Defenseman",
+      "type" : "Defenseman"
+    }
+  }, {
+    "person" : {
+      "id" : 8475191,
+      "fullName" : "Reilly Smith"
+    },
+    "jerseyNumber" : "19",
+    "position" : {
+      "code" : "R",
+      "name" : "Right Wing",
+      "type" : "Forward"
+    }
+  }, {
+    "person" : {
+      "id" : 8475913,
+      "fullName" : "Mark Stone"
+    },
+    "jerseyNumber" : "61",
+    "position" : {
+      "code" : "R",
+      "name" : "Right Wing",
+      "type" : "Forward"
+    }
+  }, {
+    "person" : {
+      "id" : 8476316,
+      "fullName" : "Laurent Brossoit"
+    },
+    "jerseyNumber" : "39",
+    "position" : {
+      "code" : "G",
+      "name" : "Goalie",
+      "type" : "Goalie"
+    }
+  }, {
+    "person" : {
+      "id" : 8476448,
+      "fullName" : "William Karlsson"
+    },
+    "jerseyNumber" : "71",
+    "position" : {
+      "code" : "C",
+      "name" : "Center",
+      "type" : "Forward"
+    }
+  }, {
+    "person" : {
+      "id" : 8476539,
+      "fullName" : "Jonathan Marchessault"
+    },
+    "jerseyNumber" : "81",
+    "position" : {
+      "code" : "R",
+      "name" : "Right Wing",
+      "type" : "Forward"
+    }
+  }, {
+    "person" : {
+      "id" : 8476905,
+      "fullName" : "Chandler Stephenson"
+    },
+    "jerseyNumber" : "20",
+    "position" : {
+      "code" : "C",
+      "name" : "Center",
+      "type" : "Forward"
+    }
+  }, {
+    "person" : {
+      "id" : 8476927,
+      "fullName" : "Teddy Blueger"
+    },
+    "jerseyNumber" : "53",
+    "position" : {
+      "code" : "C",
+      "name" : "Center",
+      "type" : "Forward"
+    }
+  }, {
+    "person" : {
+      "id" : 8477018,
+      "fullName" : "Ben Hutton"
+    },
+    "jerseyNumber" : "17",
+    "position" : {
+      "code" : "D",
+      "name" : "Defenseman",
+      "type" : "Defenseman"
+    }
+  }, {
+    "person" : {
+      "id" : 8477447,
+      "fullName" : "Shea Theodore"
+    },
+    "jerseyNumber" : "27",
+    "position" : {
+      "code" : "D",
+      "name" : "Defenseman",
+      "type" : "Defenseman"
+    }
+  }, {
+    "person" : {
+      "id" : 8477478,
+      "fullName" : "William Carrier"
+    },
+    "jerseyNumber" : "28",
+    "position" : {
+      "code" : "L",
+      "name" : "Left Wing",
+      "type" : "Forward"
+    }
+  }, {
+    "person" : {
+      "id" : 8477964,
+      "fullName" : "Ivan Barbashev"
+    },
+    "jerseyNumber" : "49",
+    "position" : {
+      "code" : "C",
+      "name" : "Center",
+      "type" : "Forward"
+    }
+  }, {
+    "person" : {
+      "id" : 8478020,
+      "fullName" : "Michael Amadio"
+    },
+    "jerseyNumber" : "22",
+    "position" : {
+      "code" : "R",
+      "name" : "Right Wing",
+      "type" : "Forward"
+    }
+  }, {
+    "person" : {
+      "id" : 8478403,
+      "fullName" : "Jack Eichel"
+    },
+    "jerseyNumber" : "9",
+    "position" : {
+      "code" : "C",
+      "name" : "Center",
+      "type" : "Forward"
+    }
+  }, {
+    "person" : {
+      "id" : 8478434,
+      "fullName" : "Keegan Kolesar"
+    },
+    "jerseyNumber" : "55",
+    "position" : {
+      "code" : "R",
+      "name" : "Right Wing",
+      "type" : "Forward"
+    }
+  }, {
+    "person" : {
+      "id" : 8478462,
+      "fullName" : "Nicolas Roy"
+    },
+    "jerseyNumber" : "10",
+    "position" : {
+      "code" : "C",
+      "name" : "Center",
+      "type" : "Forward"
+    }
+  }, {
+    "person" : {
+      "id" : 8478499,
+      "fullName" : "Adin Hill"
+    },
+    "jerseyNumber" : "33",
+    "position" : {
+      "code" : "G",
+      "name" : "Goalie",
+      "type" : "Goalie"
+    }
+  }, {
+    "person" : {
+      "id" : 8479353,
+      "fullName" : "Brett Howden"
+    },
+    "jerseyNumber" : "21",
+    "position" : {
+      "code" : "C",
+      "name" : "Center",
+      "type" : "Forward"
+    }
+  }, {
+    "person" : {
+      "id" : 8479980,
+      "fullName" : "Nicolas Hague"
+    },
+    "jerseyNumber" : "14",
+    "position" : {
+      "code" : "D",
+      "name" : "Defenseman",
+      "type" : "Defenseman"
+    }
+  }, {
+    "person" : {
+      "id" : 8480238,
+      "fullName" : "Jiri Patera"
+    },
+    "jerseyNumber" : "30",
+    "position" : {
+      "code" : "G",
+      "name" : "Goalie",
+      "type" : "Goalie"
+    }
+  }, {
+    "person" : {
+      "id" : 8480313,
+      "fullName" : "Logan Thompson"
+    },
+    "jerseyNumber" : "36",
+    "position" : {
+      "code" : "G",
+      "name" : "Goalie",
+      "type" : "Goalie"
+    }
+  }, {
+    "person" : {
+      "id" : 8480727,
+      "fullName" : "Zach Whitecloud"
+    },
+    "jerseyNumber" : "2",
+    "position" : {
+      "code" : "D",
+      "name" : "Defenseman",
+      "type" : "Defenseman"
+    }
+  }, {
+    "person" : {
+      "id" : 8481032,
+      "fullName" : "Paul Cotter"
+    },
+    "jerseyNumber" : "43",
+    "position" : {
+      "code" : "C",
+      "name" : "Center",
+      "type" : "Forward"
+    }
+  }, {
+    "person" : {
+      "id" : 8481167,
+      "fullName" : "Brayden Pachal"
+    },
+    "jerseyNumber" : "94",
+    "position" : {
+      "code" : "D",
+      "name" : "Defenseman",
+      "type" : "Defenseman"
+    }
+  } ]
+}
