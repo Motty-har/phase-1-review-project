@@ -16,3 +16,15 @@ fetch(`http://localhost:3000/roster?fullName=${name}`)
 })
 }
 ))
+const positionSearch = document.getElementById("positionForm")
+positionSearch.addEventListener("click", (event) => {
+    event.preventDefault()
+fetch("http://localhost:3000/roster")
+.then(resp => resp.json())
+.then(data => {
+    const position = document.getElementById("position").value.toUpperCase
+    const dataPos = data[0].position.type.toUpperCase()
+    data.map()
+})
+
+})
