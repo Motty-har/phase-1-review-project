@@ -22,9 +22,27 @@ positionSearch.addEventListener("click", (event) => {
 fetch("http://localhost:3000/roster")
 .then(resp => resp.json())
 .then(data => {
-    const position = document.getElementById("position").value.toUpperCase
-    const dataPos = data[0].position.type.toUpperCase()
-    data.map()
+    const position = document.getElementById("position").value
+    /*need to iterate through the data which is an array of objects 
+    in each itteration compare the position.name to the positon input by user 
+    return whole obj if comparison = true 
+    continues to itrerate throug whole array returning all the matches
+    */
+   //console.log(position === data[0].position.name)
+   for(let i = 0; i < data.length; i++){
+    if(position === data[i].position.name){
+        console.log(data[i].fullName)
+        const posDiv = document.createElement('div')
+        const posName = document.createElement('ul')
+        const posNumber = document.createElement('ul')
+        posName.innerText = data[i].fullName
+        posNumber.innerText = data[i].jerseyNumber
+        posDiv.append(posName, posNumber)
+        console.log(posDiv)
+    }else{
+
+    }
+ }
 })
 
 })
