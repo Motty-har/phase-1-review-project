@@ -50,6 +50,5 @@ header.addEventListener("mouseover", (event) => {
     event.target.style.color = "white"
     setTimeout(() => {
         event.target.style.color = "";
-      }, 500);
-
+      }, 2000);
 } )
