@@ -5,8 +5,8 @@
 
 
 # Who it's For
-If you're a fan of the Golden Knights (or just a hockey fan in general) you can use this to find out some more information about your favorite Golden Knights players.
-Find out your which number they wear, what posiiton they play, or which players play a certain position.
+If you're a fan of the Golden Knights (or just a hockey fan in general) you can use this website to find out some more information about your favorite Golden Knights players.
+Find out which number they wear, what posiiton they play, or which players play a certain position.
 
 # How to Use the Features
 <img width="163" alt="image" src="https://github.com/Motty-har/phase-1-review-project/assets/126115373/6fcacc5f-f993-461d-a760-bcfe22586815">
