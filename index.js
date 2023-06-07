@@ -31,14 +31,12 @@ fetch("http://localhost:3000/roster")
    //console.log(position === data[0].position.name)
    for(let i = 0; i < data.length; i++){
     if(position === data[i].position.name){
-        console.log(data[i].fullName)
-        const posDiv = document.createElement('div')
+        const posDiv = document.getElementById('posInfo')
         const posName = document.createElement('ul')
         const posNumber = document.createElement('ul')
         posName.innerText = data[i].fullName
         posNumber.innerText = data[i].jerseyNumber
         posDiv.append(posName, posNumber)
-        console.log(posDiv)
     }else{
 
     }
