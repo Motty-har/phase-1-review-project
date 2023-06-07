@@ -34,13 +34,13 @@ fetch("http://localhost:3000/roster")
         const posDiv = document.getElementById('posInfo')
         const posName = document.createElement('ul')
         const posNumber = document.createElement('ul')
+        const br = document.createElement('br')
         posName.innerText = data[i].fullName
         posNumber.innerText = data[i].jerseyNumber
-        posDiv.append(posName, posNumber)
+        posDiv.append(posName, posNumber, br)
     }else{
 
     }
  }
 })
-
 })
