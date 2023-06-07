@@ -41,7 +41,7 @@ When mouse hovers over the page header, the text temporarily turns to white.
 
 # Server Information/Sources
 The data for this project was taken from https://statsapi.web.nhl.com/api/v1/teams/54/roster. 
-The data required for the projected was then copied and added to a local JSON server.
+The data  was then copied and added to a local JSON server.
 Through the API written above it is possible to expand this project and be able to retrieve much more information including player stats, single game box scores, and awards won by players. It can either be copied to a local server or accesed directly from the API itself
 
 
