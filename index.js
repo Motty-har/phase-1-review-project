@@ -47,9 +47,5 @@ fetch("http://localhost:3000/roster")
 const header = document.getElementById('header')
 header.addEventListener("mouseover", (event) => {
     event.preventDefault() 
-    event.target.style.color = "white"  
-    setTimeout(() => {
-        event.target.style.color = "";
-      }, 500);
     
 } )
