@@ -1,0 +1,21 @@
+body{background-color: 	#414141;}
+h1{text-align: center;
+    color: gold}
+h2{text-align: center;
+    color: gold}
+h3{text-align: center;
+    color: gold}
+h1{text-align: center;
+    color: gold}
+ul{text-align: center;
+    color: gold}
+form{text-align: center;
+    color: gold}
+li {
+    display: inline-block;
+    margin: 0 10px;}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;}
