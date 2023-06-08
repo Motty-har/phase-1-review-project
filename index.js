@@ -1,14 +1,11 @@
 const form = document.getElementById("form")
-
-document.addEventListener("DOMContentLoaded", form.addEventListener("submit", 
-    (event) => {
+document.addEventListener("DOMContentLoaded", form.addEventListener("submit", (event) => {
         event.preventDefault()
         const name = document.getElementById("name").value
         fetch(`http://localhost:3000/roster?fullName=${name}`)
         .then(resp => resp.json())
         .then(data => fetchPlayer(data))
-    }
-))
+}))
 
 function fetchPlayer(data) {
     const obj = data[0]
@@ -20,33 +17,29 @@ function fetchPlayer(data) {
     position.innerText = obj.position.name
 }
 
-const positionSearch = document.getElementById("positionForm")
-
-positionSearch.addEventListener("click", 
-    (event) => {
+document.getElementById("positionForm").addEventListener("click", (event) => {
     event.preventDefault()
     fetch("http://localhost:3000/roster")
     .then(resp => resp.json())
-    .then(data => {
-        data.forEach((data) => playerByPos(data))
-    })
+    .then(data => playerByPos(data))
 })
 
 function playerByPos(data){
     const position = document.getElementById("position").value
-    if(position === data.position.name){
-        const posDiv = document.getElementById('posInfo')
-        const posName = document.createElement('ul')
-        const posNumber = document.createElement('ul')
-        const br = document.createElement('br')
-        posName.innerText = data.fullName
-        posNumber.innerText = data.jerseyNumber
-        posDiv.append(posName, posNumber, br)
-    }
+    data.forEach((data) => {
+        if(position === data.position.name){
+            const posDiv = document.getElementById('posInfo')
+            const posName = document.createElement('ul')
+            const posNumber = document.createElement('ul')
+            const br = document.createElement('br')
+            posName.innerText = data.fullName
+            posNumber.innerText = data.jerseyNumber
+            posDiv.append(posName, posNumber, br)
+        }
+    })
 }
-const header = document.getElementById('header')
 
-header.addEventListener("mouseover", (event) => {
+document.getElementById('header').addEventListener("mouseover", (event) => {
     event.preventDefault() 
     event.target.style.color = "white"
     setTimeout(() => {
